@@ -40,9 +40,7 @@ python whatsBook.py tets > content.tex
 
 After building using `pdfLaTeX` the resulting pages should look like this:
 
-<img style="float:left; margin-right: 6px; box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.5);" src="./assets/september.jpg">
-<img style="float:left; margin-right: 6px; box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.5);" src="./assets/page1.jpg">
-<img style="float:left; box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.5);" src="./assets/page2.jpg">
+![Page 1](./assets/september.jpg "Page 1") ![Page 2](./assets/page1.jpg "Page 2") ![Page 3](./assets/page2.jpg "Page 3")
 
 ## License
 
