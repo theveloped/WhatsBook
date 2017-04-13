@@ -38,7 +38,7 @@ cd WhatsBook
 python whatsBook.py tets > content.tex
 ```
 
-After building using `pdfLaTeX` the resulting pages should look like this:
+After building using `pdfLaTeX` the result should look similar to [this](./test/test.pdf) and the screenshots shown below:
 
 ![Page 1](./assets/september.jpg "Page 1") ![Page 2](./assets/page1.jpg "Page 2") ![Page 3](./assets/page2.jpg "Page 3")
 
