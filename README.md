@@ -2,7 +2,7 @@
 
 Archiving of your WhatsApp conversations in printed form seemed like a beautiful idea. I first came across it in a blog post by [Pelle Beckman](https://medium.com/@pbeck/whatsapp-books-a-hacker-s-guide-edbb397e0bee), the code below is my take on this beautiful idea.
 
-![WhatsBook a photo book styled chat archive](/assets/whatsBook/photoBook.jpg "WhatsBook a photo book styled chat archive")
+![WhatsBook a photo book styled chat archive](./assets/photoBook.jpg "WhatsBook a photo book styled chat archive")
 
 WhatsApp has a little know feature that allows one to export a certain chat to a parsable format. After extracting the resulting export has a single `_chat.txt` file that contains the entire chat conversation. Additionally the different attachments are present with a simple time stamp and numerical index.
 
@@ -40,9 +40,9 @@ python whatsBook.py tets > content.tex
 
 After building using `pdfLaTeX` the resulting pages should look like this:
 
-<img style="float:left; margin-right: 6px; box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.5);" src="/assets/whatsBook/september.jpg">
-<img style="float:left; margin-right: 6px; box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.5);" src="/assets/whatsBook/page1.jpg">
-<img style="float:left; box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.5);" src="/assets/whatsBook/page2.jpg">
+<img style="float:left; margin-right: 6px; box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.5);" src="./assets/september.jpg">
+<img style="float:left; margin-right: 6px; box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.5);" src="./assets/page1.jpg">
+<img style="float:left; box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.5);" src="./assets/page2.jpg">
 
 ## License
 
