@@ -1,0 +1,142 @@
+% Document setup
+% ==============
+\documentclass[9pt, openany]{memoir}
+
+% Title & Author
+% ===============
+\title{WhatsBook}
+\author{Huize Boerenkool}
+
+\makeatletter
+\let\inserttitle\@title
+\makeatother
+
+
+% Language
+% ========
+\usepackage[english]{babel}
+\usepackage[hyphens]{url}
+\usepackage{microtype} % Improves character and word spacing
+
+
+% Stock & page size
+% ===================
+\setstocksize{216mm}{154mm}
+\settrimmedsize{210mm}{148mm}{*}
+\settrims{3mm}{3mm}
+\setlrmarginsandblock{15mm}{10mm}{*}
+\setulmarginsandblock{10mm}{12mm}{*}
+\checkandfixthelayout
+\fixpdflayout
+
+
+% Type
+% =========
+\usepackage[familydefault,light]{Chivo}
+\usepackage[T1]{fontenc}
+
+\setlength{\parindent}{0pt}
+\usepackage[none]{hyphenat}
+
+
+% Header and Footer
+% =========
+\let\footruleskip\undefined
+\usepackage{fancyhdr}
+\renewcommand{\headrulewidth}{0pt}
+
+\pagestyle{fancy}
+\fancyhead{}
+\fancyfoot{}
+\fancyfoot[LE]{\thepage \* \inserttitle}
+\fancyfoot[RO]{\leftmark \* \thepage}
+
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+
+% Redefine the plain page style for chapter pages
+\fancypagestyle{plain}{%
+  \fancyhf{}%
+  \fancyhead{}
+  \fancyfoot{}
+}
+
+
+% % Figures
+% % =======
+\setlength{\floatsep}{1em}
+\setlength{\textfloatsep}{1em}
+\setlength{\intextsep}{1em}
+
+\usepackage{caption}
+\captionsetup{labelformat=empty,labelsep=none} % remove caption labels
+
+
+% Graphics
+% ===================
+\usepackage[pdftex]{graphicx}
+
+
+% Emoji's
+% ===================
+\usepackage{coloremoji}
+
+
+% Sections
+% =================
+\usepackage[]{titlesec}
+\titleformat{\section}
+  {\normalfont \Large \bfseries}{\thesection}{1em}{}[{\titlerule[0.2pt]}]
+
+
+% Chapters
+% =========
+\usepackage{tikz}
+
+\newcommand*{\PageBackground}[1]{
+    \tikz[remember picture, overlay] \node[] at (current page.center)
+    {\includegraphics[width=\paperwidth, height=\paperheight]{#1}};
+}
+
+\newcommand*{\picturechapter}[2]{%
+  \cleardoublepage
+  \refstepcounter{chapter}%
+  \thispagestyle{empty}
+  \PageBackground{#2}
+  \newpage
+  \addcontentsline{toc}{chapter}{\protect\numberline{\thechapter}#1}
+  \chaptermark{#1}
+}
+
+
+% Fix outline of background due to memoir
+\usetikzlibrary{decorations.pathmorphing}
+
+\newcommand\setpagenode{%
+    \expandafter\def\csname pgf@sh@ns@current page\endcsname{rectangle}%
+    \strictpagecheck%
+    \checkoddpage%
+    \ifoddpage%
+        \expandafter\def\csname pgf@sh@np@current page\endcsname{%
+          \def\southwest{\pgfpoint{\stockwidth-\paperwidth-\trimedge}%
+                                  {\stockheight-\trimtop-\paperheight}}%
+          \def\northeast{\pgfpoint{\stockwidth-\trimedge}{\stockheight-\trimtop}}%
+        }%
+    \else
+        \expandafter\def\csname pgf@sh@np@current page\endcsname{%
+          \def\southwest{\pgfpoint{\trimedge}{\stockheight-\trimtop-\paperheight}}%
+          \def\northeast{\pgfpoint{\trimedge+\paperwidth}{\stockheight-\trimtop}}%
+        }%
+    \fi
+    \expandafter\def\csname pgf@sh@nt@current page\endcsname{{1}{0}{0}{1}{0pt}{0pt}}%
+    \expandafter\def\csname pgf@sh@pi@current page\endcsname{pgfpageorigin}}
+
+\pgfkeys{/tikz/overlay/.add code={}{\setpagenode}}
+
+
+% Document
+% ========
+\begin{document}
+
+\include{content}
+
+\end{document}

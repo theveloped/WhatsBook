@@ -1,0 +1,41 @@
+28-09-16 11:20:19: Tara: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel mattis mi, in posuere tortor. Sed sed ipsum bibendum, facilisis enim in, laoreet justo. 
+28-09-16 11:20:33: Alex: Aenean lacinia dapibus pharetra. Phasellus venenatis congue dolor, ut commodo lorem porta id. Quisque iaculis velit sed velit dignissim malesuada. 
+28-09-16 12:10:39: Tara: In quis imperdiet nulla, ac sagittis orci. Duis consequat magna augue, quis feugiat ipsum accumsan non. Curabitur at tincidunt mauris. Sed tempor malesuada nulla id porta. 
+28-09-16 12:10:45: Filip: Donec consequat metus faucibus felis tincidunt accumsan. 
+28-09-16 17:00:04: Tara: 3.jpg <‎bijgevoegd>
+28-09-16 12:10:51: Filip: Integer quis arcu vitae tellus sollicitudin lobortis non vitae dolor. 
+28-09-16 12:13:42: Alex: In imperdiet tortor ipsum, vel aliquet erat condimentum quis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus pharetra ultricies efficitur.
+28-09-16 16:55:40: Bobby: Nunc ut arcu eleifend, molestie lorem non, tristique eros. Vestibulum risus purus, pellentesque sed efficitur quis, rutrum a elit.
+28-09-16 16:55:53: Jax: Integer lorem augue, commodo vitae convallis non, viverra ac sapien. Ut nec felis blandit, scelerisque libero nec, dictum metus.
+28-09-16 16:56:20: Filip: Nunc blandit mollis mauris in egestas. Quisque blandit maximus nisl, eget eleifend ligula rutrum a. Vivamus sagittis magna vitae nulla ullamcorper, at eleifend sem rhoncus.
+28-09-16 16:57:46: Jax: Integer molestie metus non malesuada sagittis. Phasellus ultricies ex eget metus fringilla, et rhoncus arcu volutpat. Proin magna diam, vestibulum et augue vel, tincidunt ullamcorper nisl.
+28-09-16 16:57:49: Jax: Duis commodo nibh at fringilla facilisis. Nulla quis est sollicitudin, facilisis ligula ut, pharetra risus.
+28-09-16 16:57:58: Tara: Integer fringilla cursus maximus.
+28-09-16 16:57:58: Tara: Etiam felis eros, commodo gravida dignissim non, euismod at quam.
+28-09-16 16:58:04: Jax: Ut scelerisque odio est, vestibulum tincidunt ex iaculis sed. 
+28-09-16 16:58:10: Jax: Fusce posuere odio id elit faucibus, at commodo erat porttitor. Integer ut massa risus. In nec congue ex, non dictum odio. 
+28-09-16 16:58:18: Jax: Donec nisi nisi, pulvinar quis arcu non, pretium egestas odio.
+28-09-16 16:58:20: Tara: Maecenas ullamcorper.
+28-09-16 16:58:50: Tara: Donec bibendum sem enim, a cursus lacus placerat ac. 
+28-09-16 16:59:24: Gemma: Vivamus feugiat leo enim, nec varius ex viverra eu.
+28-09-16 17:00:04: Gemma: 1.jpg <‎bijgevoegd>
+28-09-16 17:05:02: Alex: Aliquam eros justo, lobortis ut est at, vestibulum fringilla arcu. Morbi at magna sagittis, tincidunt tellus vel, laoreet libero.
+28-09-16 17:05:06: Alex: Curabitur bibendum nunc quis massa aliquet, in sagittis nisl bibendum.
+28-09-16 17:05:28: Jax: Proin sollicitudin nisi nisi, ac dictum felis interdum et.
+28-09-16 17:05:46: Tara: Duis pharetra urna vel odio semper scelerisque vel ut lectus.
+28-09-16 17:00:04: Gemma: 2.jpg <‎bijgevoegd>
+28-09-16 17:05:53: Gemma: Phasellus quis nisi dignissim, convallis metus molestie, fringilla odio.
+28-09-16 17:05:55: Alex: Aenean sit amet tortor a enim pellentesque pellentesque a sit amet eros. 
+28-09-16 17:05:59: Jax: Nulla pulvinar sit amet.
+28-09-16 17:06:10: Jax: Aliquam a faucibus velit, vitae congue velit. Praesent feugiat sollicitudin pellentesque.
+28-09-16 17:06:15: Gemma: Quisque elit est, ultrices vel congue sit amet, ultricies eget metus. 
+28-09-16 17:06:54: Jax: Morbi vulputate tincidunt vehicula. Sed sagittis massa erat, quis dictum urna ornare ac. 
+28-09-16 17:07:42: Tara: Curabitur vitae tempus ligula.
+28-09-16 22:57:53: Jax: Donec sit amet venenatis augue. Nullam eu eros sed nisi dapibus suscipit vel eget diam.
+28-09-16 22:58:05: Jax: Aenean justo orci.
+28-09-16 23:03:09: Alex: Mattis vitae quam sed.
+28-09-16 23:03:07: Tara: Nam eget vulputate est.
+29-09-16 07:46:29: Jax: Fusce ultricies ligula at odio egestas, eu fermentum nisl porta.
+29-09-16 07:46:41: Bobby: In convallis elit a magna suscipit, feugiat hendrerit lorem aliquam.
+29-09-16 07:46:55: Jax: Aenean cursus urna eu quam tempus, vel euismod odio fringilla.
+29-09-16 08:49:34: Gemma: Quisque finibus orci luctus ipsum faucibus.
