@@ -369,7 +369,7 @@ def parseText(line):
 
 def parseDate(dateString):
     # 29/12/15
-    day, month, year = re.split("[-/]", dateString, 2)
+    day, month, year = re.split("[-/\.]", dateString, 2)
     date = datetime.date(int("20" + year), int(month), int(day))
 
     if 4 <= int(day) <= 20 or 24 <= int(day) <= 30:
