@@ -35,7 +35,7 @@ There is a tiny example chat to generate the test file that is indicated in the 
 ```sh
 git clone https://github.com/theveloped/WhatsBook.git
 cd WhatsBook
-python whatsBook.py tets > content.tex
+python whatsBook.py test > content.tex
 ```
 
 After building using `pdfLaTeX` the result should look similar to [this](./test/test.pdf) and the screenshots shown below:
